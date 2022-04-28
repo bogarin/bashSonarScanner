@@ -7,7 +7,7 @@ sonarScanner() {
         echo "tener como minimo en el archivo sonar-project.properties  sonar.projectKey del proyecto ha escanear example: sonar.projectKey=Dsonar.projectKey"
         echo "4. tener la url de sonarCube en la variable <Dsonar.host.url> sin dobles comillas  exmaple: http://localhost:9000"
         echo "5. tener el token de sonarCube del proyecto en la variable <Dsonar.login> sin dobles comillas exmaple: 29f109c3edd5619cec0ed750b63420793b06559b"
-        echo "6. tener el path del proyecto en la local para la variable <path_proyecto> sin dobles comillas exmaple: /Users/solemtiUser/Documents/workspace/project"
+        echo "6. tener el path del proyecto en la local para la variable <path_proyecto> sin dobles comillas exmaple: /PathLocal/workspace/project"
         echo "7. ejecutar sonarScanner en este orden: sonarScanner <Dsonar.host.url> <Dsonar.login> <path_proyecto>"
         echo "para mas informacion de sonarScanner visitar https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/"
         return 1

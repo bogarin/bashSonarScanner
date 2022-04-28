@@ -13,11 +13,32 @@ Es un script que se encarga de ejecutar el programa sonar-scanner en una carpeta
 
 ## :thinking: como funciona bashSonarScanner?
 
-llamando la función en la terminal preferida del programador indicando los valores que te permite sonarqube 🧑🏿‍💻 ejemplo: cuando configuras un proyecto en sonarqube que no son java o C# tienes que usar [sonar scanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) y configurar el sonarqube para que reconozca el lenguaje que se usa en el proyecto.
+llamando la función en la terminal preferida del programador indicando los valores que te permite sonarqube 🧑🏿‍💻 ejemplo: 
+cuando configuras un proyecto en javascript o python te dará al final d ela configuración una información similar a esta.
 
 ```bash
- sonarScanner 
+sonar-scanner \
+  -Dsonar.projectKey=pruebas \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=3910de611047006cb3ca29c5e5ff8bc89f5d3757
+
 ```
 
+lo cual de estos datos solamente necesitaras estos campos en este orden.
+
+```bash
+ sonarScanner Dsonar.host.url Dsonar.login path_local_proyecto
+
+```
+
+estableciendo los datos del ejemplo:
+
+```bash
+sonarScanner http://localhost:9000 3910de611047006cb3ca29c5e5ff8bc89f5d3757 /pathlocal/proyecto
+
+```
+
+```
 ## :mechanical_arm: Como instalarlo?
 
