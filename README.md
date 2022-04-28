@@ -1,10 +1,8 @@
 # bashSonarScanner
 
-<div>
-    <p style = 'text-align:center;'>
-        <img src="./imagenes/sonarDocker.png" alt="JuveYell" width="300px">
-    </p>
-</div>
+<p align="center">
+  <img width="300px" src="./imagenes/sonarDocker.png">
+</p>
 
 ## :open_mouth:  que es bashSonarScanner?
 
