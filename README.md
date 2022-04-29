@@ -89,4 +89,4 @@ Listo!!!!
 
 Por el momento solo funciona en linux y Mac, pero en el futuro se estará implementando en windows de igual forma si gustan colaborar con este script es bienvenido :+1:
 
-[:point_up:](#indice)
+[:point_up: subir](#bashsonarscanner)
