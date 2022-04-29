@@ -7,9 +7,10 @@
 [![](https://vistr.dev/badge?repo=bogarin.bogarin&corners=square)](https://github.com/Elfocrash/vistr.dev)
 [![](https://img.shields.io/badge/-@bogarin-%23181717?style=flat-square&logo=github)](https://github.com/bogarin)
 
-Indice:
+### Indice:
 
 - [bashSonarScanner](#bashsonarscanner)
+    - [Indice:](#indice)
   - [:open_mouth:  Que es bashSonarScanner?](#open_mouth--que-es-bashsonarscanner)
   - [:thinking: Como funciona bashSonarScanner?](#thinking-como-funciona-bashsonarscanner)
   - [:mechanical_arm: Como instalarlo?](#mechanical_arm-como-instalarlo)
@@ -86,4 +87,6 @@ Listo!!!!
 Listo!!!!
  ![Alternate text](./imagenes/terminal1.png)
 
-Por el momento solo funciona en linux y Mac, pero en el futuro se estará implementando en windows de igual forma si gustan colaborar con este script es bienvenido :+1: .
+Por el momento solo funciona en linux y Mac, pero en el futuro se estará implementando en windows de igual forma si gustan colaborar con este script es bienvenido :+1:
+
+[:point_up:](#indice)
