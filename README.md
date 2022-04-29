@@ -13,7 +13,7 @@ Es un script que se encarga de ejecutar el programa sonar-scanner en una carpeta
 
 ## :thinking: como funciona bashSonarScanner?
 
-llamando la función en la terminal preferida del programador indicando los valores que te permite sonarqube 🧑🏿‍💻 ejemplo: 
+llamando la función en la terminal preferida del programador indicando los valores que te permite sonarqube 🧑🏿‍💻 ejemplo:
 cuando configuras un proyecto en javascript o python te dará al final d ela configuración una información similar a esta.
 
 ```bash
@@ -39,6 +39,47 @@ sonarScanner http://localhost:9000 3910de611047006cb3ca29c5e5ff8bc89f5d3757 /pat
 
 ```
 
-```
 ## :mechanical_arm: Como instalarlo?
 
+### [ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
+1. Abrir le archivo zshrc con tu editor de texto preferible en nuestro caso [vscode](https://code.visualstudio.com/).
+
+    ```bash
+        code ~/.zshrc
+    ```
+
+2. Introduzca el script al archivo zshrc que se encuentra en [sonarScanner.sh](./sonarScanner.sh).
+3. grabar y ejecutar el comando source.
+
+    ```bash
+        source ~/.zshrc
+    ```
+
+Listo!!!!
+<!-- ![Alternate text](./imagenes/terminal1.png)-->
+<p align="center"> 
+  <img width="1800px" src="./imagenes/terminal1.png">
+</p>
+
+
+### BASH
+
+1. Abrir le archivo bashrc con tu editor de texto preferible en nuestro caso [vscode](https://code.visualstudio.com/).
+
+    ```bash
+        code ~/.bashrc
+    ```
+
+2. Introduzca el script al archivo bashrc que se encuentra en [sonarScanner.sh](./sonarScanner.sh).
+3. grabar y ejecutar el comando source.
+
+    ```bash
+        source ~/.bashrc
+    ```
+
+Listo!!!!
+<!-- ![Alternate text](./imagenes/terminal1.png)-->
+<p align="center">
+  <img width="1800px" src="./imagenes/terminal1.png">
+</p>
