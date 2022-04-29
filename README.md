@@ -19,7 +19,7 @@
 
 ## :open_mouth:  Que es bashSonarScanner?
 
-Es un script que se encarga de ejecutar el programa sonar-scanner en una carpeta local determinada, establecida en un contenedor, para ejecutar el sonar-scanner necesitas tener instalado docker.
+Es un script que se encarga de ejecutar el programa [sonar-scanner](https://hub.docker.com/r/sonarsource/sonar-scanner-cli) establecido en un contenedor oficial, para ejecutar el sonar-scanner en contenedor necesitas tener instalado [docker](https://docs.docker.com/engine/install/).
 
 ## :thinking: Como funciona bashSonarScanner?
 
