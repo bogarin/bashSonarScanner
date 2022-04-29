@@ -59,7 +59,7 @@ sonarScanner http://localhost:9000 3910de611047006cb3ca29c5e5ff8bc89f5d3757 /pat
 Listo!!!!
 <!-- ![Alternate text](./imagenes/terminal1.png)-->
 <p align="center"> 
-  <img width="1800px" src="./imagenes/terminal1.png">
+  <img width="1800px" height="100px" src="./imagenes/terminal1.png">
 </p>
 
 
