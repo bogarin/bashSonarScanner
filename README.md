@@ -7,11 +7,20 @@
 [![](https://vistr.dev/badge?repo=bogarin.bogarin&corners=square)](https://github.com/Elfocrash/vistr.dev)
 [![](https://img.shields.io/badge/-@bogarin-%23181717?style=flat-square&logo=github)](https://github.com/bogarin)
 
-## :open_mouth:  que es bashSonarScanner?
+Indice:
+
+- [bashSonarScanner](#bashsonarscanner)
+  - [:open_mouth:  Que es bashSonarScanner?](#open_mouth--que-es-bashsonarscanner)
+  - [:thinking: Como funciona bashSonarScanner?](#thinking-como-funciona-bashsonarscanner)
+  - [:mechanical_arm: Como instalarlo?](#mechanical_arm-como-instalarlo)
+    - [ZSH](#zsh)
+    - [BASH](#bash)
+
+## :open_mouth:  Que es bashSonarScanner?
 
 Es un script que se encarga de ejecutar el programa sonar-scanner en una carpeta local determinada, establecida en un contenedor, para ejecutar el sonar-scanner necesitas tener instalado docker.
 
-## :thinking: como funciona bashSonarScanner?
+## :thinking: Como funciona bashSonarScanner?
 
 llamando la función en la terminal preferida del programador indicando los valores que te permite sonarqube 🧑🏿‍💻 ejemplo:
 cuando configuras un proyecto en javascript o python te dará al final d ela configuración una información similar a esta.
